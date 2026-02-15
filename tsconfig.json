@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 {
   "compilerOptions": {
@@ -24,3 +25,34 @@
   "include": ["."],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
+=======
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "experimentalDecorators": true,
+    "useDefineForClassFields": false,
+    "module": "ESNext",
+    "lib": [
+      "ES2022",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "skipLibCheck": true,
+    "types": [
+      "node"
+    ],
+    "moduleResolution": "bundler",
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "allowJs": true,
+    "jsx": "react-jsx",
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    },
+    "allowImportingTsExtensions": true,
+    "noEmit": true
+  }
+}
+>>>>>>> e20612902d92a1cfc90564eb6ebbc5b4ec5c32bd

@@ -1,0 +1,5 @@
+{
+  "name": "Bill to CSV Converter",
+  "description": "An intelligent tool that extracts tabular data from an image of a bill or spreadsheet and converts it into a downloadable CSV file. Simply upload an image, and the AI will process it into a structured format.",
+  "requestFramePermissions": []
+}

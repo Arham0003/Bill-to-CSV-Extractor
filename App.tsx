@@ -6,7 +6,7 @@ import FileUploader from './components/FileUploader';
 import DataTable from './components/DataTable';
 import DownloadButton from './components/DownloadButton';
 import Loader from './components/Loader';
-import { FileText, Image, UploadCloud, AlertTriangle } from 'lucide-react';
+import { FileText, UploadCloud, AlertTriangle } from 'lucide-react';
 
 const App: React.FC = () => {
   const [imageFile, setImageFile] = useState<File | null>(null);
